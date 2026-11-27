@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Reading Priority for Zotero",
-  "version": "1.0.4",
+  "version": "1.0.0",
   "description": "Read-only, sortable reading columns derived from existing Zotero tags.",
   "applications": {
     "zotero": {

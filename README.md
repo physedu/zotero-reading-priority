@@ -12,9 +12,9 @@ A small Zotero Desktop add-on that displays sortable research reading-plan colum
 
 ## Installation
 
-Version 1.0.4 declares compatibility with Zotero 10.0.x. The plugin is intended for Zotero Desktop, not the web library.
+Version 1.0.0 declares compatibility with Zotero 10.0.x. The plugin is intended for Zotero Desktop, not the web library.
 
-1. Download [reading-priority-1.0.4.xpi](https://github.com/physedu/zotero-reading-priority/raw/refs/heads/main/reading-priority-1.0.4.xpi).
+1. Download [reading-priority-1.0.0.xpi](https://github.com/physedu/zotero-reading-priority/raw/refs/heads/main/reading-priority-1.0.0.xpi).
 2. In Zotero, open Tools → Plugins, then the gear menu → Install Plugin From File.
 3. Select the XPI and restart if needed.
 4. Right-click the library table headers and enable the desired columns.
