@@ -1,0 +1,19 @@
+{
+  "addons": {
+    "reading-priority@local.example": {
+      "updates": [
+        {
+          "version": "1.0.0",
+          "update_link": "https://raw.githubusercontent.com/physedu/zotero-reading-priority/main/reading-priority-1.0.0.xpi",
+          "update_hash": "sha256:0a83830957267647915e6bfa52624851c600bb59194f4a996fca3eeaede563f8",
+          "applications": {
+            "zotero": {
+              "strict_min_version": "10.0",
+              "strict_max_version": "10.0.*"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

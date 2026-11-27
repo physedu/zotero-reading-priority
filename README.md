@@ -32,7 +32,7 @@ Priority ranks are: 1 = read-first + essential; 2 = read-first + important; 3 = 
 
 Importance and Reading Priority use colored rounded labels, using the native Zotero tag color when available, or built-in fallback colors. Order uses a colored label only if its tag has a native color. Priority remains neutral. The source adjusts foreground/background contrast for light and dark themes.
 
-Tags are global to an item, not collection-specific; a paper shared by several projects has the same classification in each collection. The add-on itself is read-only. Updates are manual: the required manifest update URL is a reserved `.invalid` address and does not provide an update service.
+Tags are global to an item, not collection-specific; a paper shared by several projects has the same classification in each collection. The add-on itself is read-only. Zotero can check for updates via the [update manifest](updates.json). Future versions must publish a new versioned XPI and update `updates.json` with the matching version, download URL, SHA-256 hash, and compatibility range. Earlier development builds with a placeholder update URL need a manual reinstall.
 
 ## Build
 
