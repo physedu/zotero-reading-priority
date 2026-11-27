@@ -4,6 +4,12 @@ A small Zotero Desktop add-on that displays sortable research reading-plan colum
 
 ![Plugin icon](icons/icon-96.png)
 
+## Preview
+
+![Reading Priority for Zotero showing color-coded importance, reading priority, and numeric reading order in the desktop library](docs/screenshots/preview.png)
+
+*Actual Zotero Desktop screenshot in dark mode, sorted by Order. The optional automatic Priority column is not shown in this view.*
+
 ## Installation
 
 Version 1.0.4 declares compatibility with Zotero 10.0.x. The plugin is intended for Zotero Desktop, not the web library.
@@ -34,7 +40,7 @@ Run `python build.py` from the repository root (Python 3, no dependencies). This
 
 ## Compatibility and status
 
-The manifest targets Zotero 10.0.x. Installation of an earlier corrected version was confirmed on Zotero 10.0.8 (Windows x64). The v1.0.4 code includes revised rendering and an icon; independent runtime verification of all rendering behavior is not available here. No other Zotero versions have been validated.
+The manifest targets Zotero 10.0.x. Installation and the colored Importance and Reading Priority labels, along with the manual Order column, have been confirmed by the author on Zotero 10.0.8 (Windows x64), as shown in the screenshot above. The screenshot does not validate the automatic Priority column or light-mode rendering. No other Zotero versions have been validated.
 
 API documentation: https://www.zotero.org/support/dev/zotero_7_for_developers#custom_item_tree_columns
 
