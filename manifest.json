@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Reading Priority for Zotero",
+  "version": "1.0.4",
+  "description": "Read-only, sortable reading columns derived from existing Zotero tags.",
+  "applications": {
+    "zotero": {
+      "id": "reading-priority@local.example",
+      "strict_min_version": "10.0",
+      "strict_max_version": "10.0.*",
+      "update_url": "https://reading-priority.invalid/updates.json"
+    }
+  },
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
+  }
+}
